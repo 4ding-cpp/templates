@@ -1,13 +1,13 @@
 <p>
   <span style="background-color: transparent">
     您購買的商品已於
-    {{ .Order.Other.Arrival }} 到達{{ .Order.Other.Receiver.CVS.Type }}
+    {{ .Order.Arrival }} 到達{{ .Order.Other.Receiver.CVS.Type }}
     {{ .Order.Other.Receiver.CVS.Name }}，
   </span>
 </p>
 <p>
   <span style="background-color: transparent">
-    請於一週內攜帶＄{{ .Order.Price + .Order.Freight }} 領取編號
+    請於一週內攜帶＄{{ add .Order.Price .Order.Freight }} 領取編號
     {{ .Order.OrderID }}。
   </span>
 </p>

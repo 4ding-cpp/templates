@@ -1,7 +1,7 @@
 <p>
   <span style="background-color: transparent">
     您購買的商品已於
-    {{ .Order.Other.Arrival }} 到達{{ .Order.Other.Receiver.CVS.Type }}
+    {{ .Order.Arrival }} 到達{{ .Order.Other.Receiver.CVS.Type }}
     {{ .Order.Other.Receiver.CVS.Name }}，
   </span>
 </p>

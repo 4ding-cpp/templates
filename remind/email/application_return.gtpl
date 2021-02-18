@@ -1,6 +1,6 @@
 <p>
   <span style="background-color: transparent">
-    您在 {{ .StoreName }} 的訂單（編號：{{ .OrderID }}） 已申請退換貨，
+    您在 {{ .StoreName }} 的訂單（編號：{{ .Order.OrderID }}） 已申請退換貨，
   </span>
 </p>
 <p>

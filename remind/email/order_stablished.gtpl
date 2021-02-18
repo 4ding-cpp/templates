@@ -33,13 +33,13 @@
 <p>
   <span style="background-color: rgb(250, 250, 248)">【訂購明細】</span>
 </p>
-{{ -range.Order.Goods }}
+{{- range.Order.Goods }}
 <p>
   <span style="background-color: transparent">
     {{ .Name }} ${{ .Price }} X{{ .Amount }}
   </span>
 </p>
-{{ -end }}
+{{- end }}
 <p></p>
 <p>
   <span style="background-color: transparent">
