@@ -4,8 +4,5 @@
   </span>
 </p>
 <p>
-  <span style="background-color: transparent">退換貨編號為：3333</span>
-</p>
-<p>
   <span style="background-color: transparent">敬請等待審核確認，謝謝。</span>
 </p>
