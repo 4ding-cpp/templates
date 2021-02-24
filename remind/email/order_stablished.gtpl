@@ -1,33 +1,21 @@
 <p>
-  <span style="background-color: transparent">
-    您在 {{ .StoreName }} 的訂單已完成訂購，以下是您的訂單明細：
-  </span>
+  您在 {{ .StoreName }} 的訂單已完成訂購，以下是您的訂單明細：
 </p>
 <p>
-  <span style="background-color: transparent">
-    ※ 請注意! {{ .StoreName }} 保留接受訂單與否的權利
-  </span>
+  ※ 請注意! {{ .StoreName }} 保留接受訂單與否的權利
 </p>
 <p></p>
 <p>
-  <span style="background-color: transparent">
-    訂單編號：{{ .Order.OrderID }}
-  </span>
+  訂單編號：{{ .Order.OrderID }}
 </p>
 <p>
-  <span style="background-color: transparent">
-    付款方式： {{ .Order.PaymentTypeString }}
-  </span>
+  付款方式： {{ .Order.PaymentTypeString }}
 </p>
 <p>
-  <span style="background-color: transparent">
-    訂單狀態： {{ .Order.StateString }}
-  </span>
+  訂單狀態： {{ .Order.StateString }}
 </p>
 <p>
-  <span style="background-color: transparent">
-    訂購日期： {{ .Order.CreateAt }}
-  </span>
+  訂購日期： {{ .Order.CreateAt }}
 </p>
 <p></p>
 <p>
@@ -35,29 +23,21 @@
 </p>
 {{- range.Order.Goods }}
 <p>
-  <span style="background-color: transparent">
-    {{ .Name }} ${{ .Price }} X{{ .Amount }}
-  </span>
+  {{ .Name }} ${{ .Price }} X{{ .Amount }}
 </p>
 {{- end }}
 <p></p>
 <p>
-  <span style="background-color: transparent">
-    商品小計 $ {{ .Order.Price }}
-  </span>
+  商品小計 $ {{ .Order.Price }}
 </p>
 <p>
-  <span style="background-color: transparent">折價券 $ 0 </span>
+  折價券 $ 0
 </p>
 <p>
-  <span style="background-color: transparent">
-    活動折扣 $ -{{ .Order.ActivityDiscount }}
-  </span>
+  活動折扣 $ -{{ .Order.ActivityDiscount }}
 </p>
 <p>
-  <span style="background-color: transparent">
-    運費 $ {{ .Order.Freight }}
-  </span>
+  運費 $ {{ .Order.Freight }}
 </p>
 <p></p>
 <p>
@@ -68,9 +48,7 @@
 </p>
 <p></p>
 <p>
-  <span style="background-color: transparent">
-    ----------------------------------------------------------------------------------------------------------------
-  </span>
+  ----------------------------------------------------------------------------------------------------------------
 </p>
 <p>
   <span style="color: rgb(255, 83, 83); background-color: transparent">
@@ -91,17 +69,11 @@
   <span style="background-color: rgb(250, 250, 248)">【收件資訊】</span>
 </p>
 <p>
-  <span style="background-color: transparent">
-    收件人： {{ mask .Order.Other.Receiver.Name }}
-  </span>
+  收件人： {{ mask .Order.Other.Receiver.Name }}
 </p>
 <p>
-  <span style="background-color: transparent">
-    聯絡電話： {{ mask .Order.Other.Receiver.Phone }}
-  </span>
+  聯絡電話： {{ mask .Order.Other.Receiver.Phone }}
 </p>
 <p>
-  <span style="background-color: transparent">
-    收件地址： {{ .Order.Destination }}
-  </span>
+  收件地址： {{ .Order.Destination }}
 </p>

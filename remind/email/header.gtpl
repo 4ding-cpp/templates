@@ -1,12 +1,10 @@
 <p><br /></p>
 <p>&nbsp;</p>
 <p>
-    <span style="background-color: transparent">ＬＯＧＯ</span>
+    ＬＯＧＯ
 </p>
 <p>
-    <span style="background-color: transparent">
-        ----------------------------------------------------------------------------------------------------------------
-    </span>
+    ----------------------------------------------------------------------------------------------------------------
 </p>
 <p>
     <span style="color: rgb(136, 136, 136); background-color: transparent">
@@ -17,6 +15,5 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>
-    <span style="background-color: transparent">
-        {{ mask .User.Name }} 小姐/先生 您好：</span>
+    {{ mask .User.Name }} 小姐/先生 您好：
 </p>
