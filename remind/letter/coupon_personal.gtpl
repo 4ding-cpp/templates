@@ -3,4 +3,3 @@
 只要在購物時輸入「{{ .Coupon.Code }}」，
 即可立即享有優惠！
 活動只到{{ datetime .Coupon.EndAt }}止。
-祝您購物愉快！
