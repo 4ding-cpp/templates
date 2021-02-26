@@ -19,5 +19,5 @@
   {{- end }}
 </p>
 <p>
-  有效期間：{{ .Coupon.BeginAt }} ～ {{ .Coupon.EndAt }}
+  有效期間：{{ datetime .Coupon.BeginAt }} ～ {{ datetime .Coupon.EndAt }}
 </p>
