@@ -1,1 +1,1 @@
-您的驗證碼為『{{ .Password }}』
+您的 4DinG 驗證碼為『{{ .Password }}』
