@@ -12,8 +12,6 @@
     </span>
 </p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>
     {{ mask .User.Name }} 小姐/先生 您好：
 </p>

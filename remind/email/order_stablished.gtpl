@@ -19,7 +19,6 @@
 <p>
   訂購日期： {{ .Order.CreateAt }}
 </p>
-<p></p>
 <p>
   <span style="background-color: rgb(250, 250, 248)">【訂購明細】</span>
 </p>
@@ -28,7 +27,9 @@
   {{ .Name }} ${{ .Price }} X{{ .Amount }}
 </p>
 {{- end }}
-<p></p>
+<p>
+  <span style="background-color: rgb(250, 250, 248)">【訂購結算】</span>
+</p>
 <p>
   商品小計 $ {{ .Order.Price }}
 </p>
@@ -41,14 +42,12 @@
 <p>
   運費 $ {{ .Order.Freight }}
 </p>
-<p></p>
 <p>
   <span style="background-color: transparent">總計 </span>
   <span style="background-color: transparent; color: rgb(255, 0, 0)">
     $ {{ .Order.Total }}
   </span>
 </p>
-<p></p>
 <p>
   ----------------------------------------------------------------------------------------------------------------
 </p>
@@ -65,8 +64,6 @@
     若有任何疑慮，請洽詢165反詐騙專線。
   </span>
 </p>
-<p></p>
-<p></p>
 <p>
   <span style="background-color: rgb(250, 250, 248)">【收件資訊】</span>
 </p>
